@@ -7,8 +7,6 @@ async function bootstrap() {
   await startApp(AppModule);
 }
 
-const x = 2;
-
 bootstrap().catch((error) => {
   console.error('Failed to start the application:', error);
   process.exit(1);
